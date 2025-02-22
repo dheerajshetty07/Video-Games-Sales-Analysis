@@ -125,7 +125,7 @@ Video-Games-Sales-Analysis/
 **Clone the repository:**
 
 ```bash
-git clone https://github.com/dheerajshetty07/VideoGameSalesAnalysis.git
+git clone https://github.com/dheerajshetty07/Video-Games-Sales-Analysis.git
 ```
 
 For detailed insights, refer to the printed output and visualizations in the 'graphs/' directory.
