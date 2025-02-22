@@ -130,13 +130,9 @@ git clone https://github.com/dheerajshetty07/Video-Games-Sales-Analysis.git
 
 For detailed insights, refer to the printed output and visualizations in the 'graphs/' directory.
 
-Data Source:
+**Data Source:** The data used in this project is sourced from the [Video Game Sales Dataset on Kaggle](https://www.kaggle.com/datasets/gregorut/videogamesales)
 
-The data used in this project is sourced from the [Video Game Sales Dataset on Kaggle](https://www.kaggle.com/datasets/gregorut/videogamesales)
-
-Contributions:
-
-Contributions are welcome! Feel free to submit a pull request or open an issue for suggestions or improvements.
+**Contributions:** Contributions are welcome! Feel free to submit a pull request or open an issue for suggestions or improvements.
 
 
 For any questions, please contact [Dheeraj Shetty](https://github.com/dheerajshetty07)
