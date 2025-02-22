@@ -104,11 +104,11 @@ Elbow Method for Optimal Clusters (line plot): A rigorous elbow curve justifies 
 
 ## Repository Structure
 ```
-VideoGameSalesAnalysis/
-├── data/                    # Contains the raw dataset (vgsales.csv)
-├── scripts/                 # Python scripts for analyses and visualizations (e.g., video_game_sales_analysis.py)
+Video-Games-Sales-Analysis/
 ├── graphs/                  # Visualizations generated during analysis (e.g., top_genres_sales.png, sales_clusters_revised.png)
-└── README.md                # Project overview and instructions
+├── scripts/                 # Python scripts for analyses and visualizations (e.g., video_game_sales_analysis.py)
+├── README.md                # Project overview and instructions
+└── data/                    # Contains the raw dataset (vgsales.csv)
 ```
 
 ## Requirements
