@@ -1,4 +1,4 @@
-## Video Game Sales Analysis: Insights and Trends (2025)
+# Video Game Sales Analysis: Insights and Trends (2025)
 
 ## Project Overview
 This project analyzes the global video game sales dataset (vgsales.csv) to uncover trends, patterns, and insights that can guide game developers, publishers, and marketers. Using Python, Pandas, Matplotlib, Seaborn, and scikit-learn, I conducted a comprehensive descriptive analysis, visualized key findings, and applied advanced clustering to segment games by regional sales patterns. This repository contains the code, datasets, and visualizations for a portfolio-ready data analytics project, demonstrating skills in data cleaning, visualization, and unsupervised learning.
