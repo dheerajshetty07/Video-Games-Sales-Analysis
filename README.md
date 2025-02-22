@@ -85,24 +85,24 @@ Elbow Method for Optimal Clusters (line plot): A rigorous elbow curve justifies 
 ## Results and Insights
 **Key findings from the analysis include:**
 
-Genre Dominance: Action and Sports genres lead global sales, with Action at approximately 450 million units and Sports at 300 million units, offering clear opportunities for developers.
+- **Genre Dominance:** Action and Sports genres lead global sales, with Action at approximately 450 million units and Sports at 300 million units, offering clear opportunities for developers.
 
-Regional Trends: North America and Europe drive the majority of sales for top genres, while Japan favors Role-Playing games, as shown in regional sales distributions.
+- **Regional Trends:** North America and Europe drive the majority of sales for top genres, while Japan favors Role-Playing games, as shown in regional sales distributions.
 
-Sales Trends: Action maintains steady sales from 2000–2020, while Role-Playing shows growth potential post-2010, indicating emerging market opportunities.
+- **Sales Trends:** Action maintains steady sales from 2000–2020, while Role-Playing shows growth potential post-2010, indicating emerging market opportunities.
 
-Top Performers: Blockbusters like Wii Sports (82.74M global sales) and Super Mario Bros. (40.24M) dominate, primarily on Wii and NES platforms, with NA and EU leading regional sales.
+- **Top Performers:** Blockbusters like Wii Sports (82.74M global sales) and Super Mario Bros. (40.24M) dominate, primarily on Wii and NES platforms, with NA and EU leading regional sales.
 
-Sales Distribution: Top genres exhibit wide sales variability, with outliers like Wii Sports driving high variance, as visualized in box plots.
+- **Sales Distribution:** Top genres exhibit wide sales variability, with outliers like Wii Sports driving high variance, as visualized in box plots.
 
-Cumulative Growth: Cumulative sales for Action and Sports grow steadily, reinforcing their market leadership, while Role-Playing accelerates in recent years.
+- **Cumulative Growth:** Cumulative sales for Action and Sports grow steadily, reinforcing their market leadership, while Role-Playing accelerates in recent years.
 
-Regional Correlations: Strong positive correlations exist between NA and EU sales for top genres, but JP sales often correlate weakly, highlighting distinct market preferences.
+- **Regional Correlations:** Strong positive correlations exist between NA and EU sales for top genres, but JP sales often correlate weakly, highlighting distinct market preferences.
 
-Market Segmentation: K-Means clustering identifies three groups—low-selling games (majority, negligible sales), moderately successful games (strong in NA/EU), and a blockbuster outlier (Wii Sports, dominating NA/EU sales)—providing strategic insights for market targeting and risk management.
+- **Market Segmentation:** K-Means clustering identifies three groups—low-selling games (majority, negligible sales), moderately successful games (strong in NA/EU), and a blockbuster outlier (Wii Sports, dominating NA/EU sales)—providing strategic insights for market targeting and risk management.
 
 
-## Repository Structure**
+## Repository Structure
 ```
 VideoGameSalesAnalysis/
 ├── data/                    # Contains the raw dataset (vgsales.csv)
@@ -114,7 +114,7 @@ VideoGameSalesAnalysis/
 ## Requirements
 
 - **Python: Version 3.8 or higher (recommended).**
-- Required libraries:
+- **Required libraries:**
 - pandas
 - matplotlib
 - seaborn
