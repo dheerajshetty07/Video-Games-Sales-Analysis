@@ -1,6 +1,6 @@
-**Video Game Sales Analysis: Insights and Trends (2025)**
+## Video Game Sales Analysis: Insights and Trends (2025)
 
-**Overview**
+## Project Overview
 This project analyzes the global video game sales dataset (vgsales.csv) to uncover trends, patterns, and insights that can guide game developers, publishers, and marketers. Using Python, Pandas, Matplotlib, Seaborn, and scikit-learn, I conducted a comprehensive descriptive analysis, visualized key findings, and applied advanced clustering to segment games by regional sales patterns. This repository contains the code, datasets, and visualizations for a portfolio-ready data analytics project, demonstrating skills in data cleaning, visualization, and unsupervised learning.
 
 **Project Structure**
@@ -83,27 +83,33 @@ Regional Correlations: Strong positive correlations exist between NA and EU sale
 Market Segmentation: K-Means clustering identifies three groups—low-selling games (majority, negligible sales), moderately successful games (strong in NA/EU), and a blockbuster outlier (Wii Sports, dominating NA/EU sales)—providing strategic insights for market targeting and risk management.
 
 
-**Repository Structure**
-
+## Repository Structure**
+```
 VideoGameSalesAnalysis/
 ├── data/                    # Contains the raw dataset (vgsales.csv)
 ├── scripts/                 # Python scripts for analyses and visualizations (e.g., video_game_sales_analysis.py)
 ├── graphs/                  # Visualizations generated during analysis (e.g., top_genres_sales.png, sales_clusters_revised.png)
 └── README.md                # Project overview and instructions
+```
 
-**Requirements**
-Python: Version 3.8 or higher (recommended).
-Required Python Libraries:
-pandas
-matplotlib
-seaborn
-scikit-learn
+## Requirements
+
+- **Python: Version 3.8 or higher (recommended).**
+- Required libraries:
+- 'pandas'
+- 'matplotlib'
+- 'seaborn'
+- 'scikit-learn'
+
+## Usage
 
 **Clone the repository:**
 
+```bash
 git clone https://github.com/dheerajshetty07/VideoGameSalesAnalysis.git
+```
 
-For detailed insights, refer to the printed output and visualizations in the graphs/ directory.
+For detailed insights, refer to the printed output and visualizations in the 'graphs/' directory.
 
 Data Source
 The data used in this project is sourced from the [Video Game Sales Dataset on Kaggle](https://www.kaggle.com/datasets/gregorut/videogamesales), compiled by GregorUT, covering global video game sales from 1980 to 2020.
