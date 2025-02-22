@@ -83,7 +83,7 @@ Elbow Method for Optimal Clusters (line plot): A rigorous elbow curve justifies 
 ![Image alt](https://github.com/dheerajshetty07/Video-Games-Sales-Analysis/blob/e34395ff96c83ebd9a24a1564153c94210e3c1a6/Graphs/elbow_method.png)
 
 ## Results and Insights
-**Key findings from the analysis include:**
+### Key findings from the analysis include:
 
 - **Genre Dominance:** Action and Sports genres lead global sales, with Action at approximately 450 million units and Sports at 300 million units, offering clear opportunities for developers.
 
