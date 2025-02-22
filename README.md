@@ -10,7 +10,7 @@ The project is organized into the following components:
 **VideoGamesSalesAnalysis.p**y: The main Python script performing all analyses and generating visualizations.
 **Graphs**: High-resolution PNG files saved in the repository, showcasing visualizations of key insights (e.g., top_genres_sales.png, sales_clusters.png).
 
-**Key Insights**
+## Key Insights
 
 **1. Top Genres by Global Sales**
 Insight: Action and Sports genres dominate global sales, with Action leading at approximately 450 million units and Sports at 300 million units historically.
@@ -58,12 +58,14 @@ Visualization: The heatmap of Correlation of Regional Sales for Top Genres revea
 **8. Game Clusters by Regional Sales Patterns**
 This analysis employs K-Means clustering to reveal three distinct market segments in video game regional sales, offering transformative insights for game developers and publishers. The largest cluster, visualized in blue (Cluster 0), comprises the majority of games with negligible sales across all regions, densely clustered near the origin on PC1 (Sales Magnitude) and PC2 (Regional Balance). These “Low-Selling” titles, typically niche or underperforming, represent the long tail of the industry, with average regional sales below 0.25 million units each. A second cluster, shown in orange (Cluster 1), spreads across positive PC1 values, indicating moderately successful games with strong sales in North America (NA) and Europe (EU), averaging around 4.33M in NA and 2.83M in EU, but limited sales in Japan (JP) and other regions—likely driven by platforms like Wii or PS2. Most notably, a single green point (Cluster 2) stands out far to the right on PC1, representing an extreme outlier—a blockbuster like Wii Sports—with massive sales dominated by NA (41.49M) and EU (29.02M), reflecting its global dominance on the Wii platform. This segmentation illuminates market opportunities, highlights the impact of blockbuster outliers, and underscores the diverse sales dynamics across regions, making it a cornerstone for strategic decision-making.
 Game Clusters by Regional Sales Patterns (scatter plot): A PCA-reduced visualization (using PC1: Sales Magnitude and PC2: Regional Balance) displays three clusters—low sellers (dense blue cluster near origin), moderate sellers (spread orange cluster), and a blockbuster outlier (isolated green point)—colored vividly with a deep palette. This plot exemplifies the power of unsupervised learning to identify natural groupings in complex sales data.
+
 ![Image alt](https://github.com/dheerajshetty07/Video-Games-Sales-Analysis/blob/e34395ff96c83ebd9a24a1564153c94210e3c1a6/Graphs/sales_clusters.png)
 
 Elbow Method for Optimal Clusters (line plot): A rigorous elbow curve justifies the choice of 3 clusters by plotting inertia against the number of clusters (1–10), showcasing a methodical approach to model selection and enhancing the analysis’s credibility.
+
 ![Image alt](https://github.com/dheerajshetty07/Video-Games-Sales-Analysis/blob/e34395ff96c83ebd9a24a1564153c94210e3c1a6/Graphs/elbow_method.png)
 
-**Results and Insights**
+##Results and Insights
 **Key findings from the analysis include:**
 
 Genre Dominance: Action and Sports genres lead global sales, with Action at approximately 450 million units and Sports at 300 million units, offering clear opportunities for developers.
