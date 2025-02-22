@@ -3,8 +3,7 @@
 ## Project Overview
 This project analyzes the global video game sales dataset (vgsales.csv) to uncover trends, patterns, and insights that can guide game developers, publishers, and marketers. Using Python, Pandas, Matplotlib, Seaborn, and scikit-learn, I conducted a comprehensive descriptive analysis, visualized key findings, and applied advanced clustering to segment games by regional sales patterns. This repository contains the code, datasets, and visualizations for a portfolio-ready data analytics project, demonstrating skills in data cleaning, visualization, and unsupervised learning.
 
-**Project Structure**
-The project is organized into the following components:
+**Project Structure**: The project is organized into the following components:
 
 **vgsales.csv**: The raw dataset from Kaggle, containing video game sales data (e.g., name, platform, genre, regional sales, global sales, year).
 **VideoGamesSalesAnalysis.p**y: The main Python script performing all analyses and generating visualizations.
